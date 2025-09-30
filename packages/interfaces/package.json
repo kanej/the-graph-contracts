@@ -19,7 +19,8 @@
     "./wagmi": {
       "types": "./dist/wagmi/generated.d.ts",
       "default": "./dist/wagmi/generated.js"
-    }
+    },
+    "./contracts/*": "./contracts/*"
   },
   "files": [
     "artifacts/**/*",

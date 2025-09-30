@@ -58,7 +58,11 @@
       "prettier": "^3.5.3",
       "prettier-plugin-solidity": "^2.0.0",
       "typescript": "^5.8.3",
-      "@types/node": "^20.17.50"
+      "@types/node": "^20.17.50",
+      "@nomicfoundation/hardhat-ethers": "^4.0.0",
+      "@nomicfoundation/hardhat-ignition-ethers": "^3.0.0",
+      "@nomicfoundation/hardhat-network-helpers": "^3.0.0",
+      "@nomicfoundation/hardhat-verify": "^3.0.0"
     },
     "patchedDependencies": {
       "typechain@8.3.2": "patches/typechain@8.3.2.patch"
